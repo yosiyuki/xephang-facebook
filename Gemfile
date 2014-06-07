@@ -15,6 +15,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'unicorn'
 
 group :development do
+  gem 'thin'
   gem 'sqlite3'
 end
 

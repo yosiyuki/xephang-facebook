@@ -1,0 +1,14 @@
+h1= @page.name
+
+h2
+  = number_with_delimiter @page.last_likes
+  | Likes
+
+= image_tag @page.image_url
+
+p= @page.about
+
+p= @page.description
+
+
+= link_to 'Back', pages_path
